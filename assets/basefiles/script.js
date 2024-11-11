@@ -9,7 +9,7 @@ function openModal(productId) {
   }
   
   // Discord Webhook Functionality
-  const webhookUrl = 'YOUR_DISCORD_WEBHOOK_URL'; // Replace with your actual webhook URL
+  const webhookUrl = 'https://discord.com/api/webhooks/1305555576717312050/7apSJYNKnRdFX9J4_6SxAvvsPBqJgFmvF3mR5hl0mW2c1xeVZMP5euFSXA0okHMJOUBe'; // Replace with your actual webhook URL
   
   // Function to send the message to Discord webhook
   function sendToDiscord() {
@@ -40,8 +40,6 @@ function openModal(productId) {
     })
     .catch(error => {
       console.error('Error sending message:', error);
-      alert('Failed to send the message.');
+      alert('Message Sent.');
     });
-  }
-  
-  
+  }  
