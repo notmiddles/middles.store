@@ -8,7 +8,6 @@
 
   <!-- Link to the CSS file -->
   <link rel="stylesheet" href="assets/basefiles/style.css">
-
 </head>
 
 <body>
@@ -41,6 +40,14 @@
         <img src="https://via.placeholder.com/300" alt="Product 3">
         <h3>Product 3</h3>
         <button class="info-btn" onclick="openModal('product3')">More Info</button>
+      </div>
+
+      <!-- New Product Box with Discord Input -->
+      <div class="product-box full-width">
+        <h3>Need something custom? Shoot us a message!</h3>
+        <p>Please include your Discord username or your email in the message so we know how to contact you.</p>
+        <textarea id="userMessage" rows="4" cols="50"></textarea><br><br>
+        <button class="info-btn" onclick="sendToDiscord()">Send Message</button>
       </div>
 
     </section>
